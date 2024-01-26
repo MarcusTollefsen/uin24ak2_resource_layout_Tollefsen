@@ -8,14 +8,15 @@
     <title>Document</title>
 </head>
 <body> 
-        <header><h1>Ressursarkiv</h1></header>
-        <div>
-          <button class="knapp" onclick="openTab(event, 'HTML')">HTML</button>
-          <button class="knapp" onclick="openTab(event, 'CSS')">CSS</button>
-          <button class="knapp" onclick="openTab(event, 'JavaScript')">JavaScript</button>
-          <button class="knapp" onclick="openTab(event, 'React')">React</button>
-          <button class="knapp" onclick="openTab(event, 'Sanity')" onclick="getTab">Sanity</button>
-      </div>
+    <nav>
+        <button class="knapp" onclick="openTab(event, 'HTML')">HTML</button>
+        <button class="knapp" onclick="openTab(event, 'CSS')">CSS</button>
+        <button class="knapp" onclick="openTab(event, 'JavaScript')">JavaScript</button>
+        <button class="knapp" onclick="openTab(event, 'React')">React</button>
+        <button class="knapp" onclick="openTab(event, 'Sanity')" onclick="getTab">Sanity</button>
+      </nav>
+      
+    <main>
   
       <div id="HTML" class="tab">
           <div class="tab-text"></div>
@@ -41,7 +42,7 @@
       <div class="tab-text"></div>
       <ul class="tab-sources"></ul>
   </div>
-
+</main>
 
 
     <script src="ressurser.js"></script>
