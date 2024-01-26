@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body> 
+        <header><h1>Ressursarkiv</h1></header>
+        <div>
+          <button class="knapp" onclick="openTab(event, 'HTML')">HTML</button>
+          <button class="knapp" onclick="openTab(event, 'CSS')">CSS</button>
+          <button class="knapp" onclick="openTab(event, 'JavaScript')">JavaScript</button>
+          <button class="knapp" onclick="openTab(event, 'React')">React</button>
+          <button class="knapp" onclick="openTab(event, 'Sanity')" onclick="getTab">Sanity</button>
+      </div>
+  
+      <div id="HTML" class="tab">
+          <div class="tab-text"></div>
+          <ul class="tab-sources"></ul>
+      </div>
+  
+      <div id="CSS" class="tab">
+          <div class="tab-text"></div>
+          <ul class="tab-sources"></ul>
+      </div>
+
+      <div id="JavaScript" class="tab">
+        <div class="tab-text"></div>
+        <ul class="tab-sources"></ul>
+    </div>
+
+    <div id="React" class="tab">
+        <div class="tab-text"></div>
+        <ul class="tab-sources"></ul>
+    </div>
+
+    <div id="Sanity" class="tab">
+      <div class="tab-text"></div>
+      <ul class="tab-sources"></ul>
+  </div>
+
+
+
+    <script src="ressurser.js"></script>
+</body>
+</html>
