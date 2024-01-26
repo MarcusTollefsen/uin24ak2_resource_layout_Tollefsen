@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
     --red: #DA291C;
@@ -20,7 +20,7 @@ body{
     background-color: var(--light-gray);
 }
 
-main{
+nav{
     background-color: var(--white);
     position: absolute;
     margin: auto;
@@ -30,14 +30,6 @@ main{
     display: inline-block;
 }
 
-nav{
-    position: absolute;
-    margin: auto;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-}
 
 
 nav button{
@@ -46,10 +38,10 @@ nav button{
     color: var(--white);
     cursor: pointer;
     padding: 16px;
-    margin: 1rem;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -76,9 +68,8 @@ h3{
     text-transform: uppercase;
 }
 
-div ul{
-    padding: 1rem;
-    padding-top: 0;
+.tab-sources{
+width: 100%;
 }
 
 a{
